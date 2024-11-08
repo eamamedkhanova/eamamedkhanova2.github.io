@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Паспорт</title>
+    <link rel="stylesheet" href="passport.css" />
+    <!-- Подключение файла стилей, если необходимо -->
+    <script src="passport.js" defer></script>
+    <!-- defer для загруки скриптов -->
+  </head>
+
+  <body>
+    <h1 id="passport">Паспорт</h1>
+    <div id="main_fon">
+      <h5 id="pass_title" class="poiret-one-regular">РОССИЙСКАЯ ФЕДЕРАЦИЯ</h5>
+      <div id="page_top">
+        <p class="vidanstr1">ОТДЕЛОМ УФМС</p>
+        <p class="vidanstr2">ПО ТЮМЕНИ</p>
+        <p class="vidanstrdata">05.03.2024</p>
+        <p class="vidanstrcode">730-876</p>
+        <img
+          class="podpis"
+          src="podpis.png"
+          style="height: 64px"
+          alt="Подпись"
+        />
+        <img
+          class="podpis1"
+          src="podpis.png"
+          style="height: 74px"
+          alt="Подпись"
+        />
+      </div>
+
+      <div id="page_bottom">
+        <img
+          class="passfoto"
+          style="width: 150px; height: 174px"
+          src="eva.png"
+          alt="Фото паспорта"
+        />
+        <p class="hfamilia">МАМЕДХАНОВА</p>
+        <p class="hname">ЕВА</p>
+        <p class="hfname">АЗАДОВНА</p>
+        <p class="hpol">ЖЕН.</p>
+        <p class="hborn">05.12.2004</p>
+        <p class="hpborn1">ГОР. ТЮМЕНЬ</p>
+        <p class="hpborn2">ТЮМЕНЬ</p>
+      </div>
+    </div>
+    <button type="button" class="button">Я кнопка</button>
+
+    <h3 id="console" class="course-title">
+      DOM_JS. Считываем информацию из DOM
+    </h3>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Ваш JavaScript код здесь
+      });
+    </script>
+  </body>
+</html>
